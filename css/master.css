@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PIER';
+    src: url(../font/PierSans-Regular.otf) format('opentype')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Garamond';
+    src: url(../font/EBGaramond-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Kievit';
+    src: url(../font/kievit_regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(../font/Merriweather-Regular.ttf) format('ttf');
+}
+
+#menu:checked~.dropDownMenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#menu:checked~.hamMenu:nth-of-type(1) {
+    transform: rotate(45deg);
+}
+

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootIcon/bootstrap-icons.css">
+</head>
+
+mb<body>
+    <!-- Header -->
+
+    <header class="w-100 2xl:container  relative mx-auto">
+        <!-- Background -->
+
+        <div class="w-full h-full absolute bg-center bg-no-repeat bg-cover after:absolute after:content-[''] after:w-full after:h-full after:bg-[#000000b4] z-[-1]"
+            style="background-image: url(img/mainBg.jpg);"></div>
+
+        <div class="head_top w-full flex justify-between xl:justify-start relative ">
+
+            <!-- Logo -->
+
+            <figure class="w-[11%] m-5">
+                <a href=""><img class="" src="img/headerLogoDemo.png" alt=""></a>
+            </figure>
+
+            <!-- Navbar -->
+
+            <input type="checkbox" id="menu" class="opacity-0 invisible absolute">
+            <label for="menu"
+                class=" w-[30px] h-[30px] absolute cursor-pointer xl:invisible z-20 right-4 top-12"></label>
+            <div
+                class="dropDownMenu fixed top-0 left-0 bg-[rgba(26,26,26,1)]  w-full h-[100vh] flex justify-center items-center opacity-0 invisible xl:hidden duration-300">
+
+                <div
+                    class=" absolute top-[48px] right-[-4px] w-[30px] h-[30px] xl:hidden me-4 z-21 flex flex-wrap duration-300">
+                    <span
+                        class="w-[22px] h-[2px] bg-white my-[2.5px] top-[12px] left-[2px] rotate-[45deg] absolute"></span>
+                    <span
+                        class="w-[22px] h-[2px] bg-white my-[2.5px] top-[12px] left-[2px] rotate-[-45deg] absolute"></span>
+                </div>
+                <ul
+                    class="text-white text-[36px]  font-montserrat uppercase font-semibold flex flex-wrap justify-center content-center">
+                    <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">home</a></li>
+                    <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">about</a></li>
+                    <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">portfolio</a></li>
+                    <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">blog</a></li>
+                    <li class="mt-12 text-[24px] text-gray-400 p-4 ">
+                        <a class="mx-4 hover:text-white" href=""><i class="bi bi-linkedin"></i></a>
+                        <a class="mx-4 hover:text-white" href=""><i class="bi bi-instagram"></i></a>
+                        <a class="mx-4 hover:text-white" href=""><i class="bi bi-github"></i></a>
+                    </li>
+                </ul>
+                <div>
+
+                </div>
+            </div>
+
+            <div class="nav flex flex-wrap justify-center items-center">
+
+                <!-- For small screen -->
+
+
+                <div class="hamMenu  flex flex-wrap justify-end items-start w-[30px] xl:hidden me-5">
+                    <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
+                    <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
+                    <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
+                </div>
+
+
+
+                <!-- For big screen -->
+
+                <ul class="w-[85%] h-full hidden xl:flex flex-1 ms-[5%] ">
+
+                    <li class="w-[290px]">
+                        <a href="">
+                            <div
+                                class=" text-white flex flex-wrap p-12 ps-5  hover:bg-[#ffffff94] hover:text-black hover:transition-all hover:duration-400 font-montserrat transition-all duration-400 mt-0 h-full content-start relative
+                            after:content-[''] after:w-[30%] after:h-[2px] after:absolute after:bottom-10 after:left-5 after:bg-white hover:after:opacity-0">
+                                <span class="w-full my-5 text-[11.2px]">01.</span>
+                                <h6 class="w-full uppercase text-[16px] font-semibold mb-2">Home</h6>
+                                <p class="w-full text-[10px] font-semibold mb-5 ">A brief introduction.</p>
+                                <span class="w-50 h-[50px]"></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="w-[290px]">
+                        <a href="">
+                            <div
+                                class=" text-white flex flex-wrap p-12 ps-5 hover:bg-[#ffffff94] hover:text-black hover:transition-all hover:duration-400 font-montserrat transition-all duration-400 mt-0 h-full content-start">
+                                <span class="w-full my-5 text-[11.2px]">02.</span>
+                                <h6 class="w-full uppercase text-[16px] font-semibold">about</h6>
+                                <p class="w-full text-[10px] font-semibold leading-[10px]">A little about who I am and
+                                    what I enjoy doing.</p>
+                                <span class="w-50"></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="w-[290px] ">
+                        <a href="">
+                            <div
+                                class=" text-white flex flex-wrap p-12 ps-5 hover:bg-[#ffffff94] hover:text-black hover:transition-all hover:duration-400 font-montserrat transition-all duration-400 mt-0 h-full content-start ">
+                                <span class="w-full my-5 text-[11.2px]">03.</span>
+                                <h6 class="w-full uppercase text-[16px] font-semibold">portfolio</h6>
+                                <p class="w-full text-[10px] font-semibold ">Some projects I've worked on</p>
+                                <span class="w-50"></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="w-[290px]">
+                        <a href="">
+                            <div
+                                class=" text-white flex flex-wrap p-12 ps-5 hover:bg-[#ffffff94] hover:text-black hover:transition-all hover:duration-400 font-montserrat transition-all duration-400 mt-0 h-full content-start">
+                                <span class="w-full my-5 text-[11.2px]">04.</span>
+                                <h6 class="w-full uppercase text-[16px] font-semibold">blog</h6>
+                                <p class="w-full text-[10px] font-semibold">Some of my thoughts on web developments
+                                    exposed.</p>
+                                <span class="w-50"></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="container mx-auto flex flex-wrap mt-[20%] sm:mt-[6%]">
+            <h5 class="w-fit text-white mx-auto font-garamond italic text-[18px] sm:text-[22px]">E-Commerce / Website
+            </h5>
+            <h1
+                class="w-full text-white mx-auto font-pier text-center text-[30px] sm:text-[85px] font-bold tracking-[5px]">
+                DEVELOPMENT.</h1>
+            <div
+                class="border-[2px] py-3 px-5 sm:px-6 mx-auto hover:bg-white group duration-200 flex justify-center items-center mt-5">
+                <a class="w-full h-full uppercase text-white font-kievit text-[13px] sm:text-[18px] tracking-[2px] group-hover:text-black duration-200"
+                    href="">contact us</a>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </header>
+
+
+    <!-- end of header*** -->
+
+
+    <!-- Main -->
+
+    <main class="container mx-auto w-full">
+
+        <!-- Introduction -->
+
+        <div
+            class="intro container flex flex-wrap justify-center after:content-[''] after:w-[80%] after:h-full after:border-b-[1px] ">
+            <h3 class="w-full pt-12 pb-6 text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6]">A
+                Brief Introduction</h3>
+            <p
+                class="w-full px-8 md:px-0 md:w-[51%] text-center font-merriweather text-[20px] text-[#1a1a1a99] pt-6 pb-20 ">
+                We are a team of software developer's with a wide range of skills. We specialise in E-Commerce
+                development using the Shopify platform but also have a passion for server side development across many
+                platforms. We do the hard work allowing you to focus on selling your products or services.</p>
+        </div>
+
+        <!-- Offer -->
+
+        <div class="offer container flex flex-wrap justify-center">
+            <h3 class="w-full pt-12 text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6] mb-12">What
+                We Can Offer</h3>
+            <div class="w-[80%] border-b-[1px] flex flex-wrap pb-20 ">
+                <div class="w-full lg:w-[50%] flex flex-wrap justify-center content-start px-8 mb-12 lg:mb-0">
+                    <span class="w-[100px] h-[100px]"> <i class="bi bi-code-square text-[100px]"></i></span>
+                    <h5 class="w-full text-center mt-16 font-montserrat text-[16px] font-semibold tracking-[3px]">
+                        DEVELOPMENT</h5>
+                    <p class="text-center mt-8 font-merriweather text-[20px] text-[#1a1a1a99]">We are coders and
+                        designers: We write both front and back end code and can implement many features to make your
+                        website or E-commerce store stand out from the crowd. We specialise in end to end E-Commerce and
+                        offer a turn key solution - meaning all you have to do is focus on marketing your products.</p>
+                </div>
+                <div class="w-full lg:w-[50%] flex flex-wrap justify-center content-start px-8">
+                    <span class="w-[100px] h-[100px]"><i class="bi bi-brush text-[100px]"></i></span>
+                    <h5 class="w-full text-center mt-16 font-montserrat text-[16px] font-semibold tracking-[3px]">DESIGN
+                    </h5>
+                    <p class="text-center mt-8 font-merriweather text-[20px] text-[#1a1a1a99]">We also have a passion
+                        for web design. If you require a fresh, slick design for a new brand or you need to update an
+                        existing site or app, hit us up. We've formed an approach that helps us create unique work; work
+                        that you can't get from a template.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Work -->
+
+        <div class="work flex flex-wrap pb-16 justify-center">
+            <h3 class="w-full pt-12 text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6] mb-12">Our
+                Work</h3>
+            <div class="w-[80%] flex flex-wrap justify-center md:justify-between mx-auto gap-0 ">
+                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                    <img src="img/1.jpg" alt="">
+                    <figcaption
+                        class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
+                        <p class="w-full text-center font-garamond italic text-[13px] text-[#ccc]">Website</p>
+                        <h4 class="w-full text-center font-montserrat text-[24px] font-semibold mb-2 text-white ">
+                            DONEGAL WOMAN</h4>
+                        <div
+                            class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                                href="">view project</a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                    <img src="img/2.jpg" alt="">
+                    <figcaption
+                        class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
+                        <p class="w-full text-center font-garamond italic text-[13px] text-[#ccc]">Logo Design</p>
+                        <h4 class="w-full text-center font-montserrat text-[24px] font-semibold mb-2 text-white ">PRIMA
+                            FITNESS</h4>
+                        <div
+                            class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                                href="">view project</a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                    <img src="img/3.jpg" alt="">
+                    <figcaption
+                        class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
+                        <p class="w-full text-center font-garamond italic text-[13px] text-[#ccc]">Website</p>
+                        <h4 class="w-full text-center font-montserrat text-[24px] font-semibold mb-2 text-white ">OWENOD
+                        </h4>
+                        <div
+                            class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                                href="">view project</a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="flex flex-wrap w-full justify-center mt-8 mb-16">
+                <div class=" py-4 px-8 border-[2px] border-black hover:bg-black group duration-200 ">
+                    <a class="peer uppercase text-black font-pier text-[12px] group-hover:text-white font-medium duration-200"
+                        href="">view more projects</a>
+                </div>
+            </div>
+            <div class="w-[80%] border-b-[1px]"></div>
+        </div>
+
+        <!-- Services -->
+
+        <div class="service flex flex-wrap justify-center">
+            <h3 class="w-full text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6] mb-12">Our
+                Services</h3>
+            <div class="w-[80%] flex flex-wrap justify-between content-start">
+                <div class=" flex flex-wrap justify-center w-[184px] pb-4">
+                    <svg weight="100px" height="180px" class=" fill-[#2fd6cb] stroke-[#16ada0] stroke-[10px]">
+                        <circle cx="90" cy="90" r="80" class=""></circle>
+                        <text x="45" y="105" class=" text-[50px] fill-white stroke-none">
+                            100
+                        </text>
+                    </svg>
+                    <p class="pt-4 font-montserrat text-[12px] text-[#1a1a1a99] font-semibold">E-Commerce</p>
+                </div>
+                <div class=" flex flex-wrap justify-center w-[184px] mb-8">
+                    <svg weight="100px" height="180px" class=" fill-[#2fd6cb] stroke-[#16ada0] stroke-[10px]">
+                        <circle cx="90" cy="90" r="80" class=""></circle>
+                        <text x="45" y="105" class=" text-[50px] fill-white stroke-none">
+                            100
+                        </text>
+                    </svg>
+                    <p class="pt-4 font-montserrat text-[12px] text-[#1a1a1a99] font-semibold">Web Design</p>
+                </div>
+                <div class=" flex flex-wrap justify-center w-[184px] mb-8">
+                    <svg weight="100px" height="180px" class=" fill-[#2fd6cb] ">
+                        <circle cx="90" cy="90" r="80" class="stroke-[#16ada0] stroke-[10px]"
+                            style="stroke-dasharray:377 125; stroke-dashoffset:125"></circle>
+                        <text x="60" y="105" class=" text-[50px] fill-white stroke-none">
+                            75
+                        </text>
+                    </svg>
+                    <p class="pt-4 font-montserrat text-[12px] text-[#1a1a1a99] font-semibold">Web Development</p>
+                </div>
+                <div class=" flex flex-wrap justify-center w-[184px] mb-8">
+                    <svg weight="100px" height="180px" class=" fill-[#2fd6cb] ">
+                        <circle cx="90" cy="90" r="80" class="stroke-[#16ada0] stroke-[10px]"
+                            style="stroke-dasharray:450 52; stroke-dashoffset:125;"></circle>
+                        <text x="60" y="105" class=" text-[50px] fill-white stroke-none">
+                            90
+                        </text>
+                    </svg>
+                    <p class="pt-4 font-montserrat text-[12px] text-[#1a1a1a99] font-semibold">Branding</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap w-full justify-center mt-8 mb-16">
+                <div class=" py-4 px-8 border-[2px] border-black hover:bg-black group duration-200 ">
+                    <a class="peer uppercase text-black font-pier text-[12px] group-hover:text-white font-medium duration-200"
+                        href="">see more skills</a>
+                </div>
+            </div>
+            <div class="w-[80%] border-b-[1px]"></div>
+        </div>
+
+        <!-- Blog -->
+
+        <div class="blog flex flex-wrap justify-center">
+            <h3 class="w-full text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6] mb-12 mt-12">
+                Latest Blog Articles</h3>
+
+            <div class="w-[80%] container flex flex-wrap ">
+
+                <div class="flex flex-wrap justify-center w-[100%] lg:w-[100%] xl:w-[50%] border-b-[1px] xl:border-r-[1px] p-2 group hover:bg-[#e6e6e6] transition duration-800 ">
+                    <figure class="hidden md:flex md:w-[50%] mb-8 mt-4">
+                        <img class="w-full rounded-[50%] cover" src="img/blog-1.jpg" alt="">
+                    </figure>
+                    <figcaption class="w-full flex mb-8 justify-center items-center">
+                        <p class="font-merriweather text-[14px] text-[#1a1a1a99] me-2"> <i class="font-merriweather-[serif] text-[14px] text-[#a8a8a7] me-2">posted on </i>  25/10/16 7:18 PM </p>
+                        <a class="ms-2 font-helvetica font-bold text-[10px] text-[#48a3a6] uppercase" href="">4 comments</a>
+                    </figcaption>
+                    <h4 class="w-full lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]"><a href="">DESIGN THAT UNDERSTANDS THE BRAND</a></h4>
+                    <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex " href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
+                </div>
+                
+                <div class="flex flex-wrap justify-center w-[100%] lg:w-[100%] xl:w-[50%] border-b-[1px] p-2 group hover:bg-[#e6e6e6] transition duration-800 ">
+                    <figure class="hidden md:flex md:w-[50%] mb-8 mt-4">
+                        <img class="w-full rounded-[50%] cover" src="img/blog-2.jpg" alt="">
+                    </figure>
+                    <figcaption class="w-full flex mb-8 justify-center items-center">
+                        <p class="font-merriweather text-[14px] text-[#1a1a1a99] me-2"> <i class="font-merriweather-[serif] text-[14px] text-[#a8a8a7] me-2">posted on </i>  04/10/16 10:24 PM </p>
+                        <a class="ms-2 font-helvetica font-bold text-[10px] text-[#48a3a6] uppercase" href="">4 comments</a>
+                    </figcaption>
+                    <h4 class="lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]"><a href="">MOBILE APP DEVELOPMENT USING WEB TECH</a></h4>
+                    <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex " href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
+                </div>
+
+                <div class="flex flex-wrap justify-center w-[100%] lg:w-[100%] xl:w-[50%]  xl:border-r-[1px] p-2 group hover:bg-[#e6e6e6] transition duration-800 ">
+                    <figure class="hidden md:flex md:w-[50%] mb-8 mt-4">
+                        <img class="w-full rounded-[50%] cover" src="img/blog-3.jpg" alt="">
+                    </figure>
+                    <figcaption class="w-full flex mb-8 justify-center items-center">
+                        <p class="font-merriweather text-[14px] text-[#1a1a1a99] me-2"> <i class="font-merriweather-[serif] text-[14px] text-[#a8a8a7] me-2">posted on </i>  18/08/16 7:40 PM  </p>
+                        <a class="ms-2 font-helvetica font-bold text-[10px] text-[#48a3a6] uppercase" href="">8 comments</a>
+                    </figcaption>
+                    <h4 class="w-full lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]"><a href="">FINDING FREELANCE TIME</a></h4>
+                    <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex " href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
+                </div>
+
+            </div>
+
+            <div class="flex flex-wrap w-full justify-center mt-8 mb-16">
+                <div class=" py-4 px-8 border-[2px] border-black hover:bg-black group duration-200 ">
+                    <a class="peer uppercase text-black font-pier text-[12px] group-hover:text-white font-medium duration-200"
+                        href="">view more articles</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <!-- Newsletter -->
+
+        <div class="subscribe flex flex-wrap justify-center bg-[#353439] text-white pt-24 pb-24 ">
+
+            <div class="w-[80%] container flex flex-wrap justify-center">
+
+                <div class="w-full md:w-[30%] h-[220px] pt-8 flex flex-wrap justify-center content-start border-b-[1px] md:border-none">
+                    <h6 class="font-kievit-[sans-serif] text-[13px] uppercase text-center tracking-[1.6px] mb-4">FOLLOW MY BLOG</h6>
+                    <p class="w-[92%] font-kievit-[sans-serif] text-[15px] text-center mb-4">Enter your email to receive notifications of my latest blogs.</p>
+                    <div class="w-full flex flex-wrap justify-center mb-4">
+                        <input type="email" placeholder="" class="w-[60%] h-[40px] outline-0 ps-2">
+                        <a class="w-[20%] font-kievit-[sans-serif] bg-[#3d3c44] text-[14px] flex justify-center items-center" href="">GO!</a>
+                    </div>
+                    <span class="w-full text-[12px] text-center">
+                        **I'll never distribute your email. I'm anti spam.
+                    </span>
+                </div>
+    
+                <div class="w-full md:w-[30%] h-[220px] pt-8  flex flex-wrap justify-center content-start border-b-[1px] md:border-none">
+                    <h6 class="font-kievit-[sans-serif] text-[13px] uppercase text-center tracking-[1.6px] mb-4">FOLLOW ME ON TWITTER</h6>
+                    <p class="w-[92%] font-kievit-[sans-serif] text-[15px] text-center mb-4">I tweet what I find interesting about design & development. Nothing else.</p>
+                    <div class="w-[140px] h-[40px]">
+                        <a class="w-full h-full font-kievit-[sans-serif] bg-[#3d3c44] flex justify-between items-center text-[14px] px-6 " href=""><i class="bi bi-twitter"></i>FOLLOW</a>
+                    </div>
+                </div>
+    
+                <div class="w-full md:w-[30%] h-[220px]  pt-8 flex flex-wrap justify-center content-start border-b-[1px] md:border-none">
+                    <h6 class="font-kievit-[sans-serif] text-[13px] uppercase text-center tracking-[1.6px] mb-4">HIRE ME</h6>
+                    <p class="w-[92%] font-kievit-[sans-serif] text-[15px] text-center mb-4">Need a responsive mobile-ready website? Get in touch.</p>
+                    <div class="w-[160px] h-[40px]">
+                        <a class="w-full h-full font-kievit-[sans-serif] bg-[#3d3c44] flex justify-between items-center text-[14px] px-6 " href="">DROP ME A LINE</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer bg-[#26262a]  w-full flex flex-wrap justify-center content-start pt-28 pb-40">
+            <div class="w-full flex justify-center mb-8">
+                <figure class="w-[8%] flex justify-center">
+                    <img src="img/headerLogoDemo.png" alt="">
+                </figure>
+            </div>
+            <ul class="w-full md:w-[30%] flex flex-wrap text-[#ffffffb3] uppercase font-kievit-[sans-serif] text-[11px] tracking-[2px] justify-between mb-2">
+                <li><a class="hover:text-white duration-300" href="">home</a></li>
+                <li><a class="hover:text-white duration-300" href="">about</a></li>
+                <li><a class="hover:text-white duration-300" href="">portfolio</a></li>
+                <li><a class="hover:text-white duration-300" href="">experience</a></li>
+                <li><a class="hover:text-white duration-300" href="">blog</a></li>
+                <li><a class="hover:text-white duration-300" href="">contact</a></li>
+            </ul>
+            <span class="w-full text-center text-[#ffffff66] font-kievit-[sans-serif] text-[10px]">© 2023 Aria AG. All rights reserved.</span>
+
+            <div class="w-[12.5%] text-[#ffffff66] text-[18px] flex justify-between mt-8 group">
+                <a class="hover:text-white duration-300" href="http://linkedin.com/in/aria-aghakhani-a8427614b/"><i class="bi bi-linkedin"></i></a>
+                <a class="hover:text-white duration-300" href="http://instagram.com/dev.aria.agk"><i class="bi bi-instagram"></i></a>
+                <a class="hover:text-white duration-300" href="http://wa.me/+905342643718"><i class="bi bi-whatsapp"></i></a>
+                <a class="hover:text-white duration-300" href="http://github.com/ariaaghakhani"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+    </footer>   
+</body>
+
+</html>
