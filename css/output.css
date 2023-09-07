@@ -1568,6 +1568,10 @@ video {
     margin-top: 6%;
   }
 
+  .sm\:w-\[12\.5\%\] {
+    width: 12.5%;
+  }
+
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
