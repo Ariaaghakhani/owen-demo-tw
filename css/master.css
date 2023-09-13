@@ -36,3 +36,7 @@
     transform: rotate(45deg);
 }
 
+
+#menu:checked~label{
+    position: fixed;
+}

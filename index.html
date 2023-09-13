@@ -35,21 +35,21 @@
 
             <!-- Navbar -->
 
-            <input type="checkbox" id="menu" class="opacity-0 invisible absolute">
+            <input type="checkbox" id="menu" class="opacity-0 invisible ">
             <label for="menu"
-                class=" w-[30px] h-[30px] absolute cursor-pointer xl:invisible z-20 right-4 top-12"></label>
+                class=" w-[30px] h-[30px] absolute cursor-pointer xl:invisible right-4 top-8 md:top-12 z-50"></label>
             <div
-                class="dropDownMenu fixed top-0 left-0 bg-[rgba(26,26,26,1)]  w-full h-[100vh] flex justify-center items-center opacity-0 invisible xl:hidden duration-300">
+                class="dropDownMenu fixed z-40 top-0 left-0 bg-[rgba(26,26,26,1)]  w-full h-[100vh] flex justify-center items-center opacity-0 invisible xl:hidden duration-300">
 
                 <div
-                    class=" absolute top-[48px] right-[-4px] w-[30px] h-[30px] xl:hidden me-4 z-21 flex flex-wrap duration-300">
+                    class=" absolute top-8 md:top-12 right-[0px] w-[30px] h-[30px] xl:hidden me-4 flex flex-wrap duration-300">
                     <span
                         class="w-[22px] h-[2px] bg-white my-[2.5px] top-[12px] left-[2px] rotate-[45deg] absolute"></span>
                     <span
                         class="w-[22px] h-[2px] bg-white my-[2.5px] top-[12px] left-[2px] rotate-[-45deg] absolute"></span>
                 </div>
                 <ul
-                    class="text-white text-[36px]  font-montserrat uppercase font-semibold flex flex-wrap justify-center content-center">
+                    class="text-white text-[36px] font-montserrat uppercase font-semibold flex flex-wrap justify-center content-center ">
                     <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">home</a></li>
                     <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">about</a></li>
                     <li class="w-[100%] flex justify-center m-3"><a class="w-fit" href="">portfolio</a></li>
@@ -70,7 +70,7 @@
                 <!-- For small screen -->
 
 
-                <div class="hamMenu  flex flex-wrap justify-end items-start w-[30px] xl:hidden me-5">
+                <div class="hamMenu flex flex-wrap justify-end items-start w-[30px] xl:hidden me-5 mt-[-1]">
                     <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
                     <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
                     <span class="w-[22px] h-[2px] bg-white my-[2.5px]"></span>
@@ -139,7 +139,7 @@
 
         </div>
 
-        <div class="container mx-auto flex flex-wrap mt-[20%] sm:mt-[6%]">
+        <div class="container mx-auto flex flex-wrap mt-[20%] sm:mt-[6%] pt-32 md:pt-48 pb-48 ">
             <h5 class="w-fit text-white mx-auto font-garamond italic text-[18px] sm:text-[22px]">E-Commerce / Website
             </h5>
             <h1
@@ -151,7 +151,7 @@
                     href="">contact us</a>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     </header>
 
 
@@ -205,11 +205,11 @@
 
         <!-- Work -->
 
-        <div class="work flex flex-wrap pb-16 justify-center">
+        <div class="work flex flex-wrap pb-16 justify-center relative z-0 ">
             <h3 class="w-full pt-12 text-center font-merriweather text-[32px] text-semibold text-[#1a1a1ae6] mb-12">Our
                 Work</h3>
             <div class="w-[80%] flex flex-wrap justify-center md:justify-between mx-auto gap-0 ">
-                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                <figure class=" w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
                     <img src="img/1.jpg" alt="">
                     <figcaption
                         class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
@@ -218,12 +218,12 @@
                             DONEGAL WOMAN</h4>
                         <div
                             class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
-                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold hover:text-black tracking-[1px] duration-300 text-white"
                                 href="">view project</a>
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                <figure class=" w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
                     <img src="img/2.jpg" alt="">
                     <figcaption
                         class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
@@ -232,12 +232,12 @@
                             FITNESS</h4>
                         <div
                             class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
-                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold hover:text-black tracking-[1px] duration-300 text-white"
                                 href="">view project</a>
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="border w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
+                <figure class=" w-full my-8 md:my-0 md:w-[31.25%] relative group duration-300">
                     <img src="img/3.jpg" alt="">
                     <figcaption
                         class="absolute w-full h-full top-0 flex flex-wrap justify-center content-center bg-[#000000ba] peer opacity-0 invisible group-hover:visible group-hover:opacity-100 duration-300">
@@ -246,7 +246,7 @@
                         </h4>
                         <div
                             class="w-[175px] h-[44px] border-[2px] flex justify-center items-center group hover:bg-white duration-300">
-                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold group-hover:text-black tracking-[1px] duration-300 text-white"
+                            <a class="w-full h-full flex justify-center items-center uppercase font-montserrat text-[12px] font-bold hover:text-black tracking-[1px] duration-300 text-white"
                                 href="">view project</a>
                         </div>
                     </figcaption>
@@ -337,7 +337,8 @@
                     </figcaption>
                     <h4
                         class="w-full lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]">
-                        <a href="">DESIGN THAT UNDERSTANDS THE BRAND</a></h4>
+                        <a href="">DESIGN THAT UNDERSTANDS THE BRAND</a>
+                    </h4>
                     <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex "
                         href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
                 </div>
@@ -356,7 +357,8 @@
                     </figcaption>
                     <h4
                         class="lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]">
-                        <a href="">MOBILE APP DEVELOPMENT USING WEB TECH</a></h4>
+                        <a href="">MOBILE APP DEVELOPMENT USING WEB TECH</a>
+                    </h4>
                     <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex "
                         href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
                 </div>
@@ -375,7 +377,8 @@
                     </figcaption>
                     <h4
                         class="w-full lg:transition-all ease-linear duration-800 text-center font-montserrat text-[26px] font-semibold tracking-[2px] text-[#201e1c] lg:mb-12 lg:group-hover:translate-y-[10px]">
-                        <a href="">FINDING FREELANCE TIME</a></h4>
+                        <a href="">FINDING FREELANCE TIME</a>
+                    </h4>
                     <a class="text-[18px] font-merriweather capitalize hover:text-[#48a3a6] transition-all ease-linear opacity-0 group-hover:opacity-100 duration-800 group-hover:translate-y-[-10px] lg:mb-8 hidden lg:flex "
                         href="">continue reading <i class="bi bi-arrow-right-short"></i></a>
                 </div>
@@ -451,13 +454,13 @@
                 </figure>
             </div>
             <ul
-                class="w-[20%] md:w-[80%] flex flex-wrap text-[#ffffffb3] uppercase font-kievit-[sans-serif] text-[11px] tracking-[2px] justify-center lg:justify-between mb-2">
-                <li><a class="hover:text-white duration-300" href="">home</a></li>
-                <li><a class="hover:text-white duration-300" href="">about</a></li>
-                <li><a class="hover:text-white duration-300" href="">portfolio</a></li>
-                <li><a class="hover:text-white duration-300" href="">experience</a></li>
-                <li><a class="hover:text-white duration-300" href="">blog</a></li>
-                <li><a class="hover:text-white duration-300" href="">contact</a></li>
+                class="w-[20%] md:w-[40%] flex flex-wrap text-[#ffffffb3] uppercase font-kievit-[sans-serif] text-[11px] tracking-[2px] justify-center lg:justify-between mb-2">
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">home</a></li>
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">about</a></li>
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">portfolio</a></li>
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">experience</a></li>
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">blog</a></li>
+                <li class="w-full lg:w-auto mb-4 lg:mb-0 flex justify-center" ><a class="hover:text-white duration-300" href="">contact</a></li>
             </ul>
             <span class="w-full text-center text-[#ffffff66] font-kievit-[sans-serif] text-[10px]">© 2023 Aria AG. All
                 rights reserved.</span>
